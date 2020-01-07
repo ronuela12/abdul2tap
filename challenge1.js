@@ -17,9 +17,9 @@ function days(){
     x.appendChild(answer);
     //"x" will print under the id "result" in index.html
     document.getElementById('result').appendChild(x);
-    function end(){
-        document.getElementById(ageInDays).remove();
-    }
+    //function end(){
+    //    document.getElementById(ageInDays).remove();
+    //}
     }
     else{
        alert("Error: Enter numbers between 1 and 100");
@@ -40,11 +40,13 @@ function days(){
     //document.getElementById('result').appendChild(x);
     
 }
-//function end(){
-//    document.getElementById('ageInDays').remove();
-//}
+function end(){
+    document.getElementById('ageInDays').remove();
+}
 
+//Kinda works
 function myFunction() {
     confirm("Are you above the age of 18?");
+    
     
 }
